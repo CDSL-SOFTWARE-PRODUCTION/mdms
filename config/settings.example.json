@@ -1,0 +1,31 @@
+{
+    "language": "vi",
+    "database": {
+        "host": "localhost",
+        "port": 5432,
+        "name": "mdms",
+        "user": "mdms_user",
+        "password": "change_this_password"
+    },
+    "security": {
+        "jwt_secret": "generate_a_secure_random_secret",
+        "encryption_key": "generate_a_secure_random_key",
+        "session_timeout": 24
+    },
+    "ui": {
+        "theme": "light",
+        "font_size": 12
+    },
+    "notifications": {
+        "maintenance_alerts": true,
+        "error_alerts": true,
+        "inventory_alerts": true,
+        "device_alerts": true
+    },
+    "backup": {
+        "auto_backup": true,
+        "backup_interval": 24,
+        "backup_location": "/var/backups/mdms",
+        "retention_days": 30
+    }
+}

@@ -1,0 +1,480 @@
+# Vietnamese translations for MDMS package
+# This file is distributed under the same license as the MDMS package.
+
+msgid ""
+msgstr ""
+"Project-Id-Version: MDMS 1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-04-30\n"
+"PO-Revision-Date: 2025-04-30\n"
+"Last-Translator: Your Name\n"
+"Language-Team: Vietnamese\n"
+"Language: vi\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+# Main Window and Common
+msgid "Medical Device Management System"
+msgstr "Hệ Thống Quản Lý Thiết Bị Y Tế"
+
+msgid "Login"
+msgstr "Đăng Nhập"
+
+msgid "Username"
+msgstr "Tên đăng nhập"
+
+msgid "Password"
+msgstr "Mật khẩu"
+
+msgid "Login Failed"
+msgstr "Đăng Nhập Thất Bại"
+
+msgid "Invalid username or password"
+msgstr "Tên đăng nhập hoặc mật khẩu không đúng"
+
+msgid "Logged out"
+msgstr "Đã đăng xuất"
+
+msgid "Login successful"
+msgstr "Đăng nhập thành công"
+
+msgid "Error"
+msgstr "Lỗi"
+
+msgid "Name"
+msgstr "Tên"
+
+msgid "Location"
+msgstr "Vị Trí"
+
+msgid "Model"
+msgstr "Mẫu"
+
+msgid "Actions"
+msgstr "Thao Tác"
+
+msgid "Status"
+msgstr "Trạng Thái"
+
+# Navigation
+msgid "Dashboard"
+msgstr "Bảng Điều Khiển"
+
+msgid "Devices"
+msgstr "Thiết Bị"
+
+msgid "Maintenance"
+msgstr "Bảo Trì"
+
+msgid "Reports"
+msgstr "Báo Cáo"
+
+msgid "Settings"
+msgstr "Cài Đặt"
+
+msgid "Logout"
+msgstr "Đăng Xuất"
+
+# Device Dashboard
+msgid "Device Dashboard"
+msgstr "Bảng Điều Khiển Thiết Bị"
+
+msgid "Refresh"
+msgstr "Làm Mới"
+
+msgid "Connect"
+msgstr "Kết Nối"
+
+msgid "Disconnect"
+msgstr "Ngắt Kết Nối"
+
+msgid "Details"
+msgstr "Chi Tiết"
+
+msgid "Last Maintenance"
+msgstr "Bảo Trì Gần Nhất"
+
+# Device Status
+msgid "Connected"
+msgstr "Đã Kết Nối"
+
+msgid "Disconnected"
+msgstr "Đã Ngắt Kết Nối"
+
+msgid "Busy"
+msgstr "Đang Bận"
+
+msgid "Status: Maintenance"
+msgstr "Trạng Thái: Đang Bảo Trì"
+
+# Heating Bed Controls
+msgid "Current Temperature"
+msgstr "Nhiệt Độ Hiện Tại"
+
+msgid "Target Temperature"
+msgstr "Nhiệt Độ Mục Tiêu"
+
+msgid "Heating Power"
+msgstr "Công Suất Làm Nóng"
+
+msgid "Alarm Status"
+msgstr "Trạng Thái Cảnh Báo"
+
+msgid "Normal"
+msgstr "Bình Thường"
+
+msgid "ALARM"
+msgstr "CẢNH BÁO"
+
+msgid "Mattress Sensor"
+msgstr "Cảm Biến Đệm"
+
+msgid "OK"
+msgstr "OK"
+
+msgid "Fault"
+msgstr "Lỗi"
+
+msgid "Reset Alarm"
+msgstr "Đặt Lại Cảnh Báo"
+
+msgid "Safety Check"
+msgstr "Kiểm Tra An Toàn"
+
+msgid "Temperature in range"
+msgstr "Nhiệt độ trong khoảng cho phép"
+
+msgid "Safety cutoff"
+msgstr "Ngưỡng an toàn"
+
+msgid "System status"
+msgstr "Trạng thái hệ thống"
+
+msgid "Failed to set target temperature"
+msgstr "Không thể đặt nhiệt độ mục tiêu"
+
+msgid "Failed to reset alarm"
+msgstr "Không thể đặt lại cảnh báo"
+
+msgid "Failed to retrieve safety status"
+msgstr "Không thể lấy trạng thái an toàn"
+
+# Device Management
+msgid "All Categories"
+msgstr "Tất Cả Danh Mục"
+
+msgid "Heating Beds"
+msgstr "Giường Sưởi"
+
+msgid "Phototherapy"
+msgstr "Đèn Chiếu"
+
+msgid "Sterilizers"
+msgstr "Máy Tiệt Trùng"
+
+msgid "Search devices..."
+msgstr "Tìm kiếm thiết bị..."
+
+msgid "View"
+msgstr "Xem"
+
+msgid "Select a device to view controls"
+msgstr "Chọn một thiết bị để xem bảng điều khiển"
+
+# Maintenance Management
+msgid "Maintenance Schedule"
+msgstr "Lịch Bảo Trì"
+
+msgid "Maintenance History"
+msgstr "Lịch Sử Bảo Trì"
+
+msgid "Spare Parts"
+msgstr "Phụ Tùng"
+
+msgid "Schedule Maintenance"
+msgstr "Lập Lịch Bảo Trì"
+
+msgid "Add Spare Part"
+msgstr "Thêm Phụ Tùng"
+
+msgid "Device"
+msgstr "Thiết Bị"
+
+msgid "Due Date"
+msgstr "Ngày Đến Hạn"
+
+msgid "Description"
+msgstr "Mô Tả"
+
+msgid "Cost"
+msgstr "Chi Phí"
+
+msgid "Performed By"
+msgstr "Người Thực Hiện"
+
+msgid "Next Due"
+msgstr "Lần Kế Tiếp"
+
+msgid "All Devices"
+msgstr "Tất Cả Thiết Bị"
+
+msgid "Last 30 days"
+msgstr "30 Ngày Qua"
+
+msgid "Last 90 days"
+msgstr "90 Ngày Qua"
+
+msgid "Last 12 months"
+msgstr "12 Tháng Qua"
+
+msgid "All time"
+msgstr "Tất Cả"
+
+msgid "Part Number"
+msgstr "Mã Phụ Tùng"
+
+msgid "Quantity"
+msgstr "Số Lượng"
+
+msgid "Min. Quantity"
+msgstr "Số Lượng Tối Thiểu"
+
+msgid "Device Model"
+msgstr "Model Thiết Bị"
+
+msgid "Edit"
+msgstr "Sửa"
+
+msgid "Complete"
+msgstr "Hoàn Thành"
+
+msgid "Reschedule"
+msgstr "Đặt Lại Lịch"
+
+msgid "Save"
+msgstr "Lưu"
+
+msgid "Cancel"
+msgstr "Hủy"
+
+msgid "Please enter a description"
+msgstr "Vui lòng nhập mô tả"
+
+msgid "Failed to schedule maintenance"
+msgstr "Không thể lập lịch bảo trì"
+
+msgid "Failed to save spare part"
+msgstr "Không thể lưu thông tin phụ tùng"
+
+# Reports Management
+msgid "Reports"
+msgstr "Báo Cáo"
+
+msgid "Device Status"
+msgstr "Trạng Thái Thiết Bị"
+
+msgid "Usage Analysis"
+msgstr "Phân Tích Sử Dụng"
+
+msgid "Maintenance Costs"
+msgstr "Chi Phí Bảo Trì"
+
+msgid "Incidents"
+msgstr "Sự Cố"
+
+msgid "Inventory"
+msgstr "Kho"
+
+msgid "From:"
+msgstr "Từ:"
+
+msgid "To:"
+msgstr "Đến:"
+
+msgid "Generate Report"
+msgstr "Tạo Báo Cáo"
+
+msgid "Export"
+msgstr "Xuất"
+
+msgid "Device:"
+msgstr "Thiết Bị:"
+
+msgid "All Devices"
+msgstr "Tất Cả Thiết Bị"
+
+msgid "All Severities"
+msgstr "Tất Cả Mức Độ"
+
+msgid "High"
+msgstr "Cao"
+
+msgid "Medium"
+msgstr "Trung Bình"
+
+msgid "Low"
+msgstr "Thấp"
+
+msgid "Total Hours"
+msgstr "Tổng Số Giờ"
+
+msgid "Usage Count"
+msgstr "Số Lần Sử Dụng"
+
+msgid "Peak Usage Time"
+msgstr "Thời Gian Cao Điểm"
+
+msgid "Total Cost"
+msgstr "Tổng Chi Phí"
+
+msgid "Maintenance Count"
+msgstr "Số Lần Bảo Trì"
+
+msgid "Severity"
+msgstr "Mức Độ"
+
+msgid "Description"
+msgstr "Mô Tả"
+
+msgid "Status"
+msgstr "Trạng Thái"
+
+msgid "Part Name"
+msgstr "Tên Phụ Tùng"
+
+msgid "Part Number"
+msgstr "Mã Phụ Tùng"
+
+msgid "Min. Quantity"
+msgstr "Số Lượng Tối Thiểu"
+
+msgid "Please generate a report first"
+msgstr "Vui lòng tạo báo cáo trước"
+
+msgid "Export Report"
+msgstr "Xuất Báo Cáo"
+
+msgid "JSON files (*.json);;CSV files (*.csv)"
+msgstr "Tập tin JSON (*.json);;Tập tin CSV (*.csv)"
+
+msgid "Success"
+msgstr "Thành Công"
+
+msgid "Report exported successfully"
+msgstr "Xuất báo cáo thành công"
+
+msgid "Failed to export report: "
+msgstr "Không thể xuất báo cáo: "
+
+# Settings Management
+msgid "General"
+msgstr "Cài Đặt Chung"
+
+msgid "Database"
+msgstr "Cơ Sở Dữ Liệu"
+
+msgid "Interface"
+msgstr "Giao Diện"
+
+msgid "Notifications"
+msgstr "Thông Báo"
+
+msgid "Backup & Restore"
+msgstr "Sao Lưu & Phục Hồi"
+
+msgid "Language:"
+msgstr "Ngôn Ngữ:"
+
+msgid "Host:"
+msgstr "Máy Chủ:"
+
+msgid "Port:"
+msgstr "Cổng:"
+
+msgid "Database Name:"
+msgstr "Tên Cơ Sở Dữ Liệu:"
+
+msgid "Username:"
+msgstr "Tên Đăng Nhập:"
+
+msgid "Password:"
+msgstr "Mật Khẩu:"
+
+msgid "Test Connection"
+msgstr "Kiểm Tra Kết Nối"
+
+msgid "Theme:"
+msgstr "Giao Diện:"
+
+msgid "Light"
+msgstr "Sáng"
+
+msgid "Dark"
+msgstr "Tối"
+
+msgid "Font Size:"
+msgstr "Cỡ Chữ:"
+
+msgid "Maintenance Alerts:"
+msgstr "Cảnh Báo Bảo Trì:"
+
+msgid "Error Alerts:"
+msgstr "Cảnh Báo Lỗi:"
+
+msgid "Inventory Alerts:"
+msgstr "Cảnh Báo Kho:"
+
+msgid "Device Status Alerts:"
+msgstr "Cảnh Báo Trạng Thái Thiết Bị:"
+
+msgid "Enable Auto Backup:"
+msgstr "Bật Tự Động Sao Lưu:"
+
+msgid "Backup Interval (hours):"
+msgstr "Chu Kỳ Sao Lưu (giờ):"
+
+msgid "Backup Location:"
+msgstr "Vị Trí Sao Lưu:"
+
+msgid "Browse"
+msgstr "Duyệt"
+
+msgid "Create Backup Now"
+msgstr "Tạo Bản Sao Lưu Ngay"
+
+msgid "Restore from Backup"
+msgstr "Khôi Phục từ Bản Sao Lưu"
+
+msgid "Select Backup Directory"
+msgstr "Chọn Thư Mục Sao Lưu"
+
+msgid "Select Backup File"
+msgstr "Chọn Tệp Sao Lưu"
+
+msgid "Backup files (*.bak)"
+msgstr "Tệp sao lưu (*.bak)"
+
+msgid "Backup"
+msgstr "Sao Lưu"
+
+msgid "Restore"
+msgstr "Khôi Phục"
+
+msgid "Backup created successfully"
+msgstr "Tạo bản sao lưu thành công"
+
+msgid "System restored successfully"
+msgstr "Khôi phục hệ thống thành công"
+
+msgid "Database Connection"
+msgstr "Kết Nối Cơ Sở Dữ Liệu"
+
+msgid "Connection successful"
+msgstr "Kết nối thành công"
+
+msgid "Failed to save settings: "
+msgstr "Không thể lưu cài đặt: "
+
+msgid "Settings saved successfully"
+msgstr "Lưu cài đặt thành công"

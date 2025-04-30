@@ -1,0 +1,173 @@
+Medical Device Management Software (MDMS) v1.0
+Release Date: April 21, 2025
+
+1. Technology Stack
+- Python 3.x
+- GUI: PyQt6 (chosen for robust features and cross-platform support)
+- Database: PostgreSQL (primary), SQLite (development/testing)
+- Communication Protocols: TCP/IP, MQTT, Modbus, DICOM
+- Device Connectivity: Serial (RS232/485), USB, Ethernet, WiFi, Bluetooth
+
+2. Core Features
+2.1 User Management
+- User authentication (login/registration)
+- Role-based access control
+- Activity logging
+- Session management
+
+2.2 Device Management
+- CRUD operations for medical devices
+- Device categorization and grouping
+- Real-time status monitoring
+- Device search and filtering
+- Support for multiple device types (surgical lights, sterilizers, etc.)
+
+2.3 Device Control & Monitoring
+- Real-time parameter monitoring
+- Device-specific control interfaces
+- Alert system for technical issues
+- Operation program management
+
+2.4 Usage Tracking
+- Usage history by device/time
+- Operation time tracking
+- Usage statistics
+
+2.5 Maintenance Management
+- Maintenance scheduling
+- Service history tracking
+- Spare parts inventory
+- Warranty tracking
+- Maintenance alerts
+
+2.6 Reporting System
+- Device status reports
+- Usage frequency analysis
+- Maintenance cost reporting
+- Incident severity reporting
+
+3. Non-Functional Requirements
+- Response time < 2 seconds
+- Data encryption
+- Cross-platform compatibility (Windows, Linux, macOS)
+- Vietnamese language support
+- Touch screen support
+- 99.9% system availability
+- Backup and recovery support
+- Support for multiple connection types
+
+4. Architecture
+- 4-Layer Architecture:
+  * GUI Layer (PyQt6)
+  * Business Logic Layer
+  * Device Communication Layer
+  * Data Access Layer (SQLAlchemy ORM)
+
+5. Security Requirements
+- Secure data transmission
+- Role-based access control
+- Activity audit logging
+- Password encryption
+- Compliance with medical industry standards
+- Data encryption at rest and in transit
+- Regular security audits and penetration testing
+- Multi-factor authentication support
+- Session timeout and automatic logout
+- API security measures (rate limiting, token-based auth)
+
+6. Medical Standards Compliance
+- IEC 62304 (Medical Device Software Life Cycle)
+- ISO 14971 (Risk Management for Medical Devices)
+- HIPAA compliance for data protection
+- FDA 21 CFR Part 11 compliance
+- CE marking requirements
+- Medical Device Regulation (MDR) 2017/745
+- IEC 60601-1 (Medical Electrical Equipment Safety)
+
+7. Data Management & Recovery
+7.1 Backup Requirements
+- Automated daily incremental backups
+- Weekly full system backups
+- 30-day minimum backup retention
+- Encrypted backup storage
+- Offsite backup replication
+- Recovery Time Objective (RTO): 4 hours
+- Recovery Point Objective (RPO): 24 hours
+
+7.2 Data Retention
+- Usage history: 5 years minimum
+- Maintenance records: 10 years minimum
+- Audit logs: 7 years minimum
+- Configuration changes: 5 years minimum
+
+8. Documentation Requirements
+8.1 User Documentation
+- Installation and setup guide
+- User manual with step-by-step instructions
+- Troubleshooting guide
+- Quick reference cards for common tasks
+- Video tutorials for key features
+- Release notes and changelog
+
+8.2 Technical Documentation
+- System architecture documentation
+- API documentation and examples
+- Database schema and relationships
+- Network topology and security architecture
+- Deployment and configuration guide
+- Source code documentation
+- Integration guides for third-party systems
+
+8.3 Training Materials
+- Administrator training guide
+- End-user training modules
+- Maintenance staff training guide
+- Training assessment materials
+- Certification requirements
+
+9. Testing Requirements
+9.1 Code Quality
+- Minimum 85% unit test coverage
+- Integration test coverage for critical paths
+- End-to-end test scenarios
+- Performance test suite
+- Security test suite
+
+9.2 Performance Testing
+- Load testing up to 100 concurrent users
+- Stress testing for peak loads
+- Endurance testing (72-hour minimum)
+- Network latency simulation tests
+- Database performance benchmarks
+
+9.3 Acceptance Criteria
+- Maximum response time: 2 seconds
+- Maximum database query time: 1 second
+- API endpoint response time: < 500ms
+- GUI rendering time: < 1 second
+- Zero critical security vulnerabilities
+- Zero high-priority bugs
+
+10. Monitoring & Alerting
+10.1 System Monitoring
+- Real-time performance monitoring
+- Resource utilization tracking
+- Error rate monitoring
+- Database performance monitoring
+- Network connectivity monitoring
+- API endpoint availability monitoring
+
+10.2 Alert Management
+- Critical alert response time: 15 minutes
+- High priority alert response: 1 hour
+- Medium priority response: 4 hours
+- Alert escalation procedures
+- On-call rotation schedule
+- Incident response procedures
+
+10.3 Reporting
+- Daily system health reports
+- Weekly performance summaries
+- Monthly availability reports
+- Quarterly security audit reports
+- Annual compliance reports

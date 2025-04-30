@@ -1,0 +1,156 @@
+# MDMS Translation Template
+# Copyright (C) 2025
+# This file is distributed under the same license as the MDMS package.
+
+msgid ""
+msgstr ""
+"Project-Id-Version: MDMS 1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-04-30\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+# Main Window
+msgid "Medical Device Management System"
+msgstr ""
+
+msgid "Login"
+msgstr ""
+
+msgid "Username"
+msgstr ""
+
+msgid "Password"
+msgstr ""
+
+msgid "Login Failed"
+msgstr ""
+
+msgid "Invalid username or password"
+msgstr ""
+
+msgid "Logged out"
+msgstr ""
+
+msgid "Login successful"
+msgstr ""
+
+# Navigation
+msgid "Dashboard"
+msgstr ""
+
+msgid "Devices"
+msgstr ""
+
+msgid "Maintenance"
+msgstr ""
+
+msgid "Reports"
+msgstr ""
+
+msgid "Settings"
+msgstr ""
+
+msgid "Logout"
+msgstr ""
+
+# Device Dashboard
+msgid "Device Dashboard"
+msgstr ""
+
+msgid "Refresh"
+msgstr ""
+
+msgid "Connect"
+msgstr ""
+
+msgid "Disconnect"
+msgstr ""
+
+msgid "Details"
+msgstr ""
+
+msgid "Model"
+msgstr ""
+
+msgid "Location"
+msgstr ""
+
+msgid "Last Maintenance"
+msgstr ""
+
+# Device Status
+msgid "Status"
+msgstr ""
+
+msgid "Connected"
+msgstr ""
+
+msgid "Disconnected"
+msgstr ""
+
+msgid "Error"
+msgstr ""
+
+msgid "Busy"
+msgstr ""
+
+msgid "Maintenance"
+msgstr ""
+
+# Heating Bed Controls
+msgid "Current Temperature"
+msgstr ""
+
+msgid "Target Temperature"
+msgstr ""
+
+msgid "Heating Power"
+msgstr ""
+
+msgid "Alarm Status"
+msgstr ""
+
+msgid "Normal"
+msgstr ""
+
+msgid "ALARM"
+msgstr ""
+
+msgid "Mattress Sensor"
+msgstr ""
+
+msgid "OK"
+msgstr ""
+
+msgid "Fault"
+msgstr ""
+
+msgid "Reset Alarm"
+msgstr ""
+
+msgid "Safety Check"
+msgstr ""
+
+msgid "Temperature in range"
+msgstr ""
+
+msgid "Safety cutoff"
+msgstr ""
+
+msgid "System status"
+msgstr ""
+
+msgid "Failed to set target temperature"
+msgstr ""
+
+msgid "Failed to reset alarm"
+msgstr ""
+
+msgid "Failed to retrieve safety status"
+msgstr ""
