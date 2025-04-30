@@ -25,7 +25,7 @@ A comprehensive solution for managing medical devices in healthcare facilities.
 
 1. Clone the repository:
 ```bash
-git clone https://github.com/yourusername/DVT.git
+git clone https://github.com/CDSL-SOFTWARE-PRODUCTION/mdms.git
 cd DVT
 ```
 
